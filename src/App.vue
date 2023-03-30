@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+<SignaturePage/>
+
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+import SignaturePage from './components/SignatureComponent.vue'
+
 </script>
 
 <style>
@@ -22,5 +18,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  padding: 20px;
+  background-color: rgb(217, 240, 240);
 }
 </style>
